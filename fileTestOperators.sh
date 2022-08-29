@@ -6,6 +6,10 @@
 # -b = block special files
 # -c = character special files
 # -s checks if files is empty oor not
+# -r checks read permission
+#-w checks write permission
+#- x checks execution permission
+
 
 echo -e "Enter the name of the file: \c"
 read file_name
